@@ -1,0 +1,27 @@
+.goTopHidden{
+    display: none;
+}
+
+.goTop{
+    display: block;
+    position: fixed;
+    bottom: 7%;
+    left: 92%;
+    background-color: #22C55E;
+    z-index: 999;
+    padding: 7px 17px;
+    border-radius: 6px;
+    border: 1px solid #22C55E;
+}
+.goTop:hover{
+    background-color: #16a34a;
+}
+.goTopIcon{
+    background-color: #22C55E;
+}
+
+@media only screen and (max-width: 768px) {
+    .goTop{
+        left: 88%;
+    }
+}

@@ -5,9 +5,9 @@ const ContactForm = () => {
     return (
         <>
             <Fade right>
-                <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-                    <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Contact</h2>
-                    <p className="leading-relaxed mb-5 text-gray-600">Sent your message here!</p>
+                <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 p-5 md:mt-0">
+                    <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Let's Talk</h2>
+                    <p className="leading-relaxed mb-5 text-gray-600">Whether you have a question or want to hire me, My inbox is always open.</p>
                     <div className="relative mb-4">
                         <label htmlFor="name" className="leading-7 text-sm text-gray-600">Name *</label>
                         <input type="text" id="name" name="name" className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />

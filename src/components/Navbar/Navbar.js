@@ -37,7 +37,7 @@ const Navbar = () => {
       >
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
           <a href="/">
-            <span className="ml-3 text-green-500 font-bold text-5xl">{"<nahid/>"}</span>
+            <span className="ml-3 text-green-500 font-medium text-5xl">{"nahid_"}</span>
           </a>
           <div>
             <BigScreenMenuItems linkColor={linkColor} />

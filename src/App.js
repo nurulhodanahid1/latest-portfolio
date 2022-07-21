@@ -1,20 +1,15 @@
-import './App.css';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Home from './components/Home';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Navbar from './components/Navbar';
+import { Routes, Route, Link } from "react-router-dom";
+import ProjectDetails from './components/Pages/ProjectDetails/ProjectDetails';
+import Home from './components/Pages/Home/Home';
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Home />
-      <Home />
-      <Footer />
-      <Contact />
-      <Footer />
-    </Router>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects/:projectId" element={<ProjectDetails />} />
+      </Routes>
+    </>
 
   );
 }
