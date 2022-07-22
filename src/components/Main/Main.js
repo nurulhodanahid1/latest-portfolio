@@ -11,7 +11,7 @@ const Main = () => {
                     <Fade bottom >
                         <h4 className="title-font lg:text-7xl  text-5xl mb-4 font-medium">Hi, I'm <span className="text-green-500">Nahid</span>.</h4>
 
-                        <TypeAnimation className="lg:text-5xl text-3xl h-14"
+                        <TypeAnimation className="lg:text-5xl text-3xl text-sky-500 h-14"
                             cursor={true}
                             sequence={['Front-End Developer.', 4000, 'JavaScript Developer.', 4000, 'React Developer.', 4000]}
                             repeat={Infinity}
@@ -26,7 +26,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mt-11">
-                    <img className="object-cover object-center rounded-full ring ring-green-500 ring-offset-0 mx-auto scale-90 hover:scale-95 transform duration-500" alt="Nahid" src={nahidImg} />
+                    <img className="object-cover object-center cursor-pointer rounded-full ring-2 ring-sky-500 ring-offset-0 mx-auto scale-90 hover:scale-95 transform duration-500" alt="Nahid" src={nahidImg} />
                 </div>
             </div>
         </section>
