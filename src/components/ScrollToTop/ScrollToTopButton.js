@@ -7,7 +7,7 @@ const ScrollToTopButton = (props) => {
     return (
         <div className={props.showGoTop} onClick={props.scrollUp}>
             <button className={styles.goTop}>
-                <IconContext.Provider value={{ color: "#fff", className: "h-10 w-6" }}>
+                <IconContext.Provider value={{ color: "#fff", className: "h-8 w-3" }}>
                     <ImArrowUp2 className={styles.goToIcon} />
                 </IconContext.Provider>
             </button>

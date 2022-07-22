@@ -76,22 +76,22 @@ const designs = [
 const Skills = () => {
     return (
         <section id="skills" className="text-gray-600 body-font">
-            <div className='container mx-auto px-5 py-24 items-center'>
-                <div>
+            <div className='container mx-auto px-8 items-center'>
+                <div className="mt-10">
                     <Fade top duration={1000}>
-                        <h2 className="text-center text-4xl font-medium mb-12">Things that I enjoy to do.</h2>
+                        <h2 className="text-center text-3xl font-medium mb-12">Things that I enjoy to do.</h2>
                     </Fade>
                     <EnjoyToDo />
                 </div>
                 <div className="mt-24">
                     <Fade top duration={1000}>
-                        <h2 className="text-center text-4xl font-medium mb-12">Technologies and tools I use.</h2>
+                        <h2 className="text-center text-3xl font-medium mb-12">Technologies and tools I use.</h2>
                         <TechnologyToolsDesign data={technologyTools} />
                     </Fade>
                 </div>
                 <div className="mt-24">
                     <Fade top duration={1000}>
-                        <h2 className="text-center text-4xl font-medium mb-12">Design</h2>
+                        <h2 className="text-center text-3xl font-medium mb-12">Design</h2>
                         <TechnologyToolsDesign data={designs} />
                     </Fade>
                 </div>

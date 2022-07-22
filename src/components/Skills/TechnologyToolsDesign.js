@@ -9,8 +9,8 @@ const TechnologyToolsDesign = (props) => {
                 return (
                     <Zoom key={item.id} duration={1000}>
                     <div className="bg-gray-100 hover:bg-green-500 shadow-lg hover:text-white rounded-md cursor-pointer transition ease-in-out duration-150">
-                        <div className="p-7">
-                            <h3 className="text-xl text-center font-semibold">{item.name}</h3>
+                        <div className="p-5">
+                            <h3 className="text-base text-center font-semibold">{item.name}</h3>
                         </div>
                     </div>
                     </Zoom>)

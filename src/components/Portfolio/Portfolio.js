@@ -12,9 +12,9 @@ const Portfolio = () => {
 
     return (
         <div className="pb-8 mt-24 " id="portfolio">
-            <div className="container mx-auto text-gray-600">
+            <div className="container mx-auto px-8 text-gray-600">
                 <Fade top duration={1000}>
-                    <h2 className="text-center md:text-5xl lg:text-6xl text-4xl font-medium">Something that I'have build</h2>
+                    <h2 className="text-center md:text-4xl lg:text-5xl text-3xl font-medium">Something that I'have build</h2>
                 </Fade>
                 <div className="grid md:grid-cols-3 gap-12 justify-center pt-12">
 
@@ -27,12 +27,12 @@ const Portfolio = () => {
                                     </div>
                                     <div className="px-6 py-4">
                                         <div className="font-bold text-xl mb-2 hover:text-green-500 hover:scale-105 ease-out duration-300">{p.name}</div>
-                                        <p className="text-white-700 text-base">
-                                            {p.description.slice(0, 200)}
+                                        <p className="text-base">
+                                            {p.description.slice(0, 80)}
                                         </p>
                                     </div>
                                 </div>
-                                <div className="px-6 pt-4 pb-2">
+                                <div className="px-2 pt-4 pb-2">
                                     <a target="_blank" rel='noreferrer' href={p.live} className="inline-block bg-green-500 hover:bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 transition durartion-300 delay-100">Live demo</a>
 
                                     <a target="_blank" rel='noreferrer' href={p.client} className="inline-block bg-green-500 hover:bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 transition durartion-300 delay-100">Client site</a>

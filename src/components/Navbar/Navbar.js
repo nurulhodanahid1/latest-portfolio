@@ -31,13 +31,13 @@ const Navbar = () => {
         style={{ backgroundColor: `${navBg}` }}
         className={
           shadow
-            ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-            : 'fixed w-full h-20 z-[100]'
+            ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 px-8'
+            : 'fixed w-full h-20 z-[100] px-9'
         }
       >
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
           <a href="/">
-            <span className="ml-3 text-green-500 font-medium text-5xl">{"nahid_"}</span>
+            <span className="ml-3 text-green-500 font-medium text-4xl">{"nahid_"}</span>
           </a>
           <div>
             <BigScreenMenuItems linkColor={linkColor} />

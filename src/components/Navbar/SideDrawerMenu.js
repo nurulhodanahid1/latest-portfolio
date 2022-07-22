@@ -16,7 +16,7 @@ const SideDrawerMenu = (props) => {
                     <div className='flex w-full items-center justify-between'>
 
                         <a href="/">
-                            <span className="ml-3 text-green-500 font-bold text-5xl">{"<nahid/>"}</span>
+                            <span className="ml-3 text-green-500 font-medium text-4xl">{"nahid_"}</span>
                         </a>
 
                         <div
@@ -27,52 +27,49 @@ const SideDrawerMenu = (props) => {
                         </div>
                     </div>
                     <div className='border-b border-gray-300 my-4'>
-                        <p className='w-[85%] md:w-[90%] py-4'>
-                            Let&#39;s build something legendary together
-                        </p>
                     </div>
                 </div>
                 <div className='py-4 flex flex-col'>
                     <ul className=''>
 
-                        <li onClick={() => props.setNav(false)} className='py-4'>
-                            <a href="#about" className='transition duration-300 delay-100 font-semibold px-3 py-3 items-center text-regular leading-snug  hover:text-green-500'>About</a>
+                        <li onClick={() => props.setNav(false)} className='py-1'>
+                            <a href="#about" className='transition duration-300 delay-100 font-semibold px-3 py-3 items-center text-regular leading-snug  hover:text-green-500 hover:scale-105 ease-out'>About</a>
                         </li>
 
 
 
 
-                        <li onClick={() => props.setNav(false)} className='py-4'>
-                            <a href="#about" className='transition duration-300 delay-100 font-semibold px-3 py-3 items-center text-regular leading-snug  hover:text-green-500'>Skills</a>
+                        <li onClick={() => props.setNav(false)} className='py-1'>
+                            <a href="#about" className='transition duration-300 delay-100 font-semibold px-3 py-3 items-center text-regular leading-snug  hover:text-green-500 hover:scale-105 ease-out'>Skills</a>
                         </li>
 
 
-                        <li onClick={() => props.setNav(false)} className='py-4'>
-                            <a href="#about" className='transition duration-300 delay-100 font-semibold px-3 py-3 items-center text-regular leading-snug  hover:text-green-500'>Portfolio</a>
+                        <li onClick={() => props.setNav(false)} className='py-1'>
+                            <a href="#about" className='transition duration-300 delay-100 font-semibold px-3 py-3 items-center text-regular leading-snug  hover:text-green-500 hover:scale-105 ease-out'>Portfolio</a>
                         </li>
 
 
-                        <li onClick={() => props.setNav(false)} className='py-4'>
-                            <a href="#contact" className='transition duration-300 delay-100 font-semibold px-3 py-3 items-center text-regular leading-snug  hover:text-green-500'>Contact</a>
+                        <li onClick={() => props.setNav(false)} className='py-1'>
+                            <a href="#contact" className='transition duration-300 delay-100 font-semibold px-3 py-3 items-center text-regular leading-snug  hover:text-green-500 hover:scale-105 ease-out'>Contact</a>
                         </li>
 
 
-                        <li onClick={() => props.setNav(false)} className='py-4 flex'>
-                            <a href="https://drive.google.com/file/d/1kKgYFLx7ZM6O7OKwxZQWENYwwsxY_3Z5/view?usp=sharing" target="_blank" rel="noreferrer" className={"text-white bg-green-500 border-0 px-8 py-3 focus:outline-none transition durartion-300 delay-100 hover:bg-green-600 rounded-full text-regular font-semibold"}>Resume</a>
+                        <li onClick={() => props.setNav(false)} className='py-1 flex'>
+                            <a href="https://drive.google.com/file/d/1kKgYFLx7ZM6O7OKwxZQWENYwwsxY_3Z5/view?usp=sharing" target="_blank" rel="noreferrer" className={"text-white bg-green-500 border-0 px-6 py-2 focus:outline-none transition durartion-300 delay-100 hover:bg-green-600 rounded-full text-base font-semibold"}>Resume</a>
                         </li>
                     </ul>
 
-                    <div className='pt-40'>
+                    <div className='pt-16'>
                         <p className='tracking-widest text-green-500'>
                             Let's Connect
                         </p>
-                        <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+                        <div className='flex items-center my-2 w-full sm:w-[80%]'>
                             <a
                                 href='https://www.linkedin.com/in/nurulhodanahid1/'
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <div className='rounded-full text-gray-600 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <div className='mr-5 rounded-full text-gray-600 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <FaLinkedinIn />
                                 </div>
                             </a>
@@ -81,7 +78,7 @@ const SideDrawerMenu = (props) => {
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <div className='rounded-full text-gray-600 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <div className='mr-5 rounded-full text-gray-600 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <FaGithub />
                                 </div>
                             </a>
@@ -91,7 +88,7 @@ const SideDrawerMenu = (props) => {
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <div className='rounded-full text-gray-600 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <div className='mr-5 rounded-full text-gray-600 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <FaFacebook />
                                 </div>
                             </a>
@@ -102,7 +99,7 @@ const SideDrawerMenu = (props) => {
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <div className='rounded-full text-gray-600 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                <div className='mr-5 rounded-full text-gray-600 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <FaTwitter />
                                 </div>
                             </a>
