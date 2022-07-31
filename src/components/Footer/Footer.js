@@ -5,7 +5,7 @@ import { Fade } from 'react-reveal';
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-800 body-font text-gray-300">
+    <footer className="bg-slate-800 body-font text-slate-500">
       <Fade bottom>
         <div className="container px-5 mx-auto flex items-center sm:flex-row flex-col py-20">
           <a className="flex title-font font-medium items-center md:justify-start justify-center" href="/">
@@ -15,37 +15,37 @@ const Footer = () => {
             <a href="https://twitter.com/nurulhodanahid1" className="ml-1 hover:underline" rel="noopener noreferrer" target="_blank">@nurulhodanahid1</a>
           </p>
 
-          <div className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start lg:mr-16'>
-            <a className="mr-6"
+          <div className='text-blue-500 inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start lg:mr-16'>
+            <a className="mr-2"
               href='https://www.linkedin.com/in/nurulhodanahid1/'
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full border-2 border-sky-500  p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+              <div className='rounded border-2 border-blue-500  p-1 cursor-pointer hover:scale-105 ease-in duration-300'>
 
                 <IconContext.Provider value={{ color: "", className: "h-4 w-4" }}>
                   <FaLinkedinIn />
                 </IconContext.Provider>
               </div>
             </a>
-            <a className="mr-6"
+            <a className="mr-2"
               href='https://github.com/nurulhodanahid1'
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full  border-2 border-sky-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+              <div className='rounded  border-2 border-blue-500 p-1 cursor-pointer hover:scale-105 ease-in duration-300'>
                 <IconContext.Provider value={{ color: "", className: "h-4 w-4" }}>
                   <FaGithub />
                 </IconContext.Provider>
               </div>
             </a>
 
-            <a className="mr-6"
+            <a className="mr-2"
               href='https://facebook.com/nurulhodanahid1'
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full  border-2 border-sky-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+              <div className='rounded  border-2 border-blue-500 p-1 cursor-pointer hover:scale-105 ease-in duration-300'>
                 <IconContext.Provider value={{ color: "", className: "h-4 w-4" }}>
                   <FaFacebook />
                 </IconContext.Provider>
@@ -53,12 +53,12 @@ const Footer = () => {
             </a>
 
 
-            <a className="mr-6"
+            <a className="mr-2"
               href='https://twitter.com/nurulhodanahid1'
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full border-2 border-sky-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+              <div className='rounded border-2 border-blue-500 p-1 cursor-pointer hover:scale-105 ease-in duration-300'>
                 <IconContext.Provider value={{ color: "", className: "h-4 w-4" }}>
                   <FaTwitter />
                 </IconContext.Provider>

@@ -7,20 +7,13 @@
     position: fixed;
     bottom: 7%;
     left: 92%;
-    background-color: #22C55E;
-    z-index: 999;
+    z-index: 9;
     padding: 7px 17px;
     border-radius: 6px;
-}
-.goTop:hover{
-    background-color: #16a34a;
-}
-.goTopIcon{
-    background-color: #22C55E;
 }
 
 @media only screen and (max-width: 768px) {
     .goTop{
-        left: 87%;
+        left: 86%;
     }
 }
