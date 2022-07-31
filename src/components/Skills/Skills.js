@@ -67,7 +67,7 @@ const designs = [
         id: 3,
         name: "Figma"
     }
-    ,{
+    , {
         id: 4,
         name: "Sketch"
     }
@@ -75,25 +75,35 @@ const designs = [
 
 const Skills = () => {
     return (
-        <section id="skills" className="text-gray-600 body-font">
-            <div className='container mx-auto px-8 items-center'>
-                <div className="mt-10">
-                    <Fade top duration={1000}>
-                        <h2 className="text-center text-3xl font-medium mb-12">Things that I enjoy to do.</h2>
-                    </Fade>
-                    <EnjoyToDo />
+        <section id="skills">
+            <div className="text-gray-600 body-font bg-slate-900">
+                <div className='container mx-auto px-8 py-10 items-center'>
+                    <div className="py-10">
+                        <Fade top duration={1000}>
+                            <h2 className="text-center uppercase title-font text-slate-200 text-3xl font-medium mb-12">Things that I <span className="text-green-500">enjoy to do</span></h2>
+                        </Fade>
+                        <EnjoyToDo />
+                    </div>
                 </div>
-                <div className="mt-24">
-                    <Fade top duration={1000}>
-                        <h2 className="text-center text-3xl font-medium mb-12">Technologies and tools I use.</h2>
-                        <TechnologyToolsDesign data={technologyTools} />
+            </div>
+            <div className="text-gray-600 body-font bg-slate-800">
+                <div className='container mx-auto px-8 py-10 items-center'>
+                <div className="py-10">
+                     <Fade top duration={1000}>
+                         <h2 className="text-center text-slate-200 text-3xl font-medium title-font mb-12 uppercase">Technologies and <span className="text-blue-500">tools I use</span></h2>
+                         <TechnologyToolsDesign data={technologyTools} />
+                    </Fade>
+                 </div>
+                </div>
+            </div>
+            <div className="text-gray-600 body-font bg-slate-900">
+                <div className='container mx-auto px-8 py-10 items-center'>
+                <div className="py-10">
+                   <Fade top duration={1000}>
+                        <h2 className="text-center text-green-500 text-3xl font-medium mb-12">DESIGN</h2>
+                        <TechnologyToolsDesign bgItem={"bg-slate-800"} data={designs} />
                     </Fade>
                 </div>
-                <div className="mt-24">
-                    <Fade top duration={1000}>
-                        <h2 className="text-center text-3xl font-medium mb-12">Design</h2>
-                        <TechnologyToolsDesign data={designs} />
-                    </Fade>
                 </div>
             </div>
         </section>

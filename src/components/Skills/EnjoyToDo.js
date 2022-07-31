@@ -38,15 +38,15 @@ const EnjoyToDo = () => {
                 toDoData.map(toDo => {
                     return (
                         <Zoom key={toDo.id} duration={1000}>
-                        <div className="bg-gray-100 hover:border-gray-100 hover:bg-white hover:shadow-lg rounded-md h-full w-full cursor-pointer transition ease-in-out duration-150">
-                            <div className="p-9">
+                        <div className="bg-slate-800 rounded-md h-full w-full hover:scale-105 transition ease-out duration-300">
+                            <div className="p-9 hover:scale-105 transition ease-out duration-300">
                                 <IconContext.Provider value={{ color: "#22c55e", className: "h-16 w-16 mb-5" }}>
                                     <div className='grid grid-cols-1 place-items-center'>
                                         {toDo.icon}
                                     </div>
                                 </IconContext.Provider>
-                                <h3 className="text-xl font-medium mb-4">{toDo.title}</h3>
-                                <p className="text-base">{toDo.description}</p>
+                                <h3 className="text-xl text-slate-200 font-medium mb-4">{toDo.title}</h3>
+                                <p className="text-slate-400 text-base">{toDo.description}</p>
                             </div>
                         </div>
                         </Zoom>)

@@ -7,8 +7,8 @@ import BigScreenMenuItems from './BigScreenMenuItems';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#fff');
-  const [linkColor, setLinkColor] = useState('#1f2937');
+  const [navBg, setNavBg] = useState('#0f172a');
+  const [linkColor, setLinkColor] = useState('#94a3b8');
 
   const handleNav = () => {
     setNav(!nav);
@@ -31,13 +31,13 @@ const Navbar = () => {
         style={{ backgroundColor: `${navBg}` }}
         className={
           shadow
-            ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 px-8'
-            : 'fixed w-full h-20 z-[100] px-9'
+            ? 'fixed w-full h-16 z-[100] ease-in-out duration-300 sm:px-8 md:px-6 lg:px-8'
+            : 'fixed w-full h-16 z-[100] sm:px-8 md:px-6 lg:px-8'
         }
       >
-        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+        <div className='flex justify-between items-center w-full h-full px-1 2xl:px-16'>
           <a href="/">
-            <span className="ml-3 text-green-500 font-medium text-4xl">{"nahid_"}</span>
+            <span className="ml-3 text-green-500 font-medium text-2xl">{"Nahid_"}</span>
           </a>
           <div>
             <BigScreenMenuItems linkColor={linkColor} />

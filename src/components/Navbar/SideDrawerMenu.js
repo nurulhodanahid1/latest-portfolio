@@ -8,7 +8,7 @@ const SideDrawerMenu = (props) => {
             <div
                 className={
                     props.nav
-                        ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+                        ? ' fixed left-0 top-0 w-[80%] sm:w-[65%] md:w-[50%] h-screen bg-[#0f172a] p-10 ease-in duration-500'
                         : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
                 }
             >
@@ -16,7 +16,7 @@ const SideDrawerMenu = (props) => {
                     <div className='flex w-full items-center justify-between'>
 
                         <a href="/">
-                            <span className="ml-3 text-green-500 font-medium text-4xl">{"nahid_"}</span>
+                            <span className="ml-3 text-green-500 font-medium text-xl">{"Nahid_"}</span>
                         </a>
 
                         <div
