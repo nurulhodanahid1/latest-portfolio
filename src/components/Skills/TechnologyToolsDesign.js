@@ -7,8 +7,8 @@ const TechnologyToolsDesign = (props) => {
             {
                 props.data.map(item => {
                     return (
-                        <div className=" hover:scale-105 transition ease-out duration-300">
-                            <Zoom key={item.id} duration={1000}>
+                        <div key={item.id} className=" hover:scale-105 transition ease-out duration-300">
+                            <Zoom duration={1000}>
                                 <div className={props.bgItem
                                     ? "bg-slate-800 rounded-md"
                                     : "bg-slate-900 rounded-md"

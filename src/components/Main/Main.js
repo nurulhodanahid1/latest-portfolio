@@ -6,7 +6,7 @@ import heroBg from '../../../src/images/hero-bg.png';
 const Main = () => {
     return (
         <section id="about" className="body-font h-full bg-slate-800 relative">
-            <div className="container mx-auto flex px-3 py-28 md:flex-row flex-col items-center">
+            <div className="container mx-auto flex px-6 py-28 md:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <Fade bottom >
                         <h4 className="title-font lg:text-6xl text-slate-200  text-5xl mb-4 font-medium">Hi, I'm <span className="text-green-500">Nahid</span>.</h4>
@@ -26,7 +26,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mt-10">
-                    <img className="object-cover object-center cursor-pointer ring-sky-500 ring-offset-0 mx-auto scale-90 hover:scale-95 transform duration-500" alt="Nahid" src={heroBg} />
+                    <img className="object-cover object-center ring-sky-500 ring-offset-0 mx-auto scale-90 hover:scale-95 transform duration-500" alt="Nahid" src={heroBg} />
                 </div>
             </div>
         </section>

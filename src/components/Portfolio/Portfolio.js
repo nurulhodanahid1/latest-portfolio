@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fade } from 'react-reveal';
+import { Fade, Rotate } from 'react-reveal';
 import { useNavigate } from 'react-router-dom';
 import projectsData from '../../jsonData/projects';
 
@@ -17,6 +17,7 @@ const Portfolio = () => {
                     <h2 className="text-center text-slate-200 uppercase md:text-3xl lg:text-4xl text-2xl font-medium">Something that <span className="text-blue-500">I've build</span></h2>
                 </Fade>
                 <div className="grid md:grid-cols-3 gap-12 justify-center pt-16">
+                <Rotate bottom right>
 
                     {
                         projectsData.map(p =>
@@ -46,6 +47,7 @@ const Portfolio = () => {
                             </div>
                         )
                     }
+                    </Rotate>
                 </div>
             </div>
 

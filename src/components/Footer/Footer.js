@@ -5,13 +5,13 @@ import { Fade } from 'react-reveal';
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-800 body-font text-slate-500">
+    <footer id="footer" className="bg-slate-800 body-font text-slate-500">
       <Fade bottom>
-        <div className="container px-5 mx-auto flex items-center sm:flex-row flex-col py-20">
+        <div className="container px-5 mx-auto flex items-center flex-col-reverse sm:flex-row py-20">
           <a className="flex title-font font-medium items-center md:justify-start justify-center" href="/">
             <span className="ml-3 text-2xl text-green-500">{"nahid_"}</span>
           </a>
-          <p className="text-sm items-center justify-center sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-300 sm:py-2 sm:mt-0 mt-4">© 2022 Nrul Hoda Nahid —
+          <p className="text-sm items-center justify-center sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-300 sm:py-2 sm:mt-0 mt-4">© 2022 Nurul Nahid —
             <a href="https://twitter.com/nurulhodanahid1" className="ml-1 hover:underline" rel="noopener noreferrer" target="_blank">@nurulhodanahid1</a>
           </p>
 

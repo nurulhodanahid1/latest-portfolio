@@ -8,12 +8,16 @@ import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   //React.Fragment to remove console warning
-  <React.StrictMode>
+  // <React.StrictMode>
+  //   <BrowserRouter>
+  //     <App />
+  //   </BrowserRouter>
+  // </React.StrictMode>
+  <React.Fragment>
     <BrowserRouter>
-      <App />
+    <App />
     </BrowserRouter>
-
-  </React.StrictMode>
+  </React.Fragment>
 );
 
 // If you want to start measuring performance in your app, pass a function

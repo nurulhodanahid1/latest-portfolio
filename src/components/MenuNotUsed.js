@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { Fade } from "react-reveal";
+import { RiDeleteBack2Line } from 'react-icons/ri';
+import { IconContext } from "react-icons";
 
 const MenuNotUsed = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <>
+    <div>
       <Fade top>
         <div className="sticky top-0 z-50 bg-[#0f172a] shadow">
           <nav className="relative flex flex-wrap items-center justify-between py-3">
@@ -19,9 +21,16 @@ const MenuNotUsed = () => {
                   type="button"
                   onClick={() => setNavbarOpen(!navbarOpen)}
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-slate-200" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
-                  </svg>
+                  {
+                    navbarOpen ? <IconContext.Provider value={{ color: "#e2e8f0", className: "h-8 w-7" }}>
+                      <div className='grid grid-cols-1 place-items-center'>
+                        <RiDeleteBack2Line />
+                      </div>
+                    </IconContext.Provider> :
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-slate-200" viewBox="0 0 20 20" fill="currentColor">
+                        <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
+                      </svg>
+                  }
                 </button>
               </div>
 
@@ -46,7 +55,7 @@ const MenuNotUsed = () => {
                     <span className='transition font-semibold px-3 items-center text-sm leading-snug'>CONTACT</span>
                   </a>
                   {navbarOpen && <hr className="border-slate-600 my-2" />}
-                  <a className="lg:ml-80 bg-green-500 text-white px-3 py-2 focus:outline-none transition durartion-300 delay-100 hover:bg-green-600 rounded-full text-sm font-semibold cursor-pointer" href="https://drive.google.com/file/d/1kKgYFLx7ZM6O7OKwxZQWENYwwsxY_3Z5/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <a className="lg:ml-[336px] bg-green-500 text-white px-3 py-2 focus:outline-none transition durartion-300 delay-100 hover:bg-green-600 rounded-full text-sm font-semibold cursor-pointer" href="https://drive.google.com/file/d/1kKgYFLx7ZM6O7OKwxZQWENYwwsxY_3Z5/view?usp=sharing" target="_blank" rel="noreferrer">
                     <span className="flex justify-center">RESUME</span>
                   </a>
                 </div>
@@ -56,7 +65,7 @@ const MenuNotUsed = () => {
           </nav>
         </div>
       </Fade>
-    </>
+    </div>
   );
 }
 
