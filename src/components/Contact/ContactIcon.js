@@ -55,7 +55,7 @@ const ContactIcon = () => {
                                     !item.email ? <p className="text-base text-slate-300">
                                         {item.address}
                                     </p> :
-                                        <a className="text-green-500 hover:underline text-base" href="mailto:nurul.nahid17@gmail.com">nurul.nahid17@gmail.com</a>
+                                        <p><a className="text-green-500 hover:underline md:text-base text-sm" href="mailto:nurul.nahid17@gmail.com">nurul.nahid17@gmail.com</a></p>
                                 }
                             </div>
                         </div>)

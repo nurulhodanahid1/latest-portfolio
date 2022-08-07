@@ -6,7 +6,7 @@ import { IconContext } from "react-icons";
 const MenuNotUsed = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <div>
+    <>
       <Fade top>
         <div className="sticky top-0 z-50 bg-[#0f172a] shadow">
           <nav className="relative flex flex-wrap items-center justify-between py-3">
@@ -65,7 +65,7 @@ const MenuNotUsed = () => {
           </nav>
         </div>
       </Fade>
-    </div>
+    </>
   );
 }
 
