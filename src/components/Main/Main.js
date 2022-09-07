@@ -1,7 +1,8 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
 import TypeAnimation from 'react-type-animation';
-import heroBg from '../../../src/images/hero-bg.png';
+import heroBg from '../../images/hero-bg.png';
+import nahidImg from '../../images/nahid.jpg';
 
 const Main = () => {
     return (
