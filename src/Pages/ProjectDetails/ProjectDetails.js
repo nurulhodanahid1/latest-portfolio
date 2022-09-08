@@ -25,14 +25,14 @@ const ProjectDetails = () => {
                         alt='/'
                     />
                     <div className='absolute top-[47%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2'>
-                        <h2 className='py-2 text-green-500 text-6xl font-bold'>{name}</h2>
-                        <h3 className="text-slate-200 text-4xl font-semibold">{mainTechnology}</h3>
+                        <h2 className='py-2 text-green-500 md:text-5xl text-4xl font-bold'>{name}</h2>
+                        <h3 className="text-slate-200 md:text-4xl text-3xl font-semibold">{mainTechnology}</h3>
                     </div>
                 </div>
 
                 <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
                     <div className='col-span-4 p-4'>
-                        <h2 className="text-4xl text-blue-500 font-semibold pt-4 pb-4"><span className="text-slate-200">PROJECT</span> OVERVIEW:</h2>
+                        <h2 className="md:text-4xl text-3xl text-blue-500 font-semibold pt-4 pb-4"><span className="text-slate-200">PROJECT</span> OVERVIEW:</h2>
                         <p className="text-xl text-slate-400">{description}</p>
                         <div className="px-3 pt-4 pb-2">
                             <a target="_blank" rel='noreferrer' href={live} className="inline-block bg-green-500 hover:bg-green-600 rounded-full px-4 py-2 text-sm font-semibold text-white mr-2 mb-2 transition durartion-300 delay-100">LIVE DEMO</a>
@@ -43,10 +43,10 @@ const ProjectDetails = () => {
                         </div>
 
                     </div>
-                    <div className='col-span-4 md:col-span-1 rounded-xl py-4 bg-slate-800'>
+                    <div className='col-span-4 md:col-span-1 rounded-xl py-4 bg-slate-800 ml-2 mr-2'>
                         <div className='p-2'>
-                            <p className='text-center text-2xl text-blue-500 font-bold pb-2'>Technologies</p>
-                            <div className='grid grid-cols-3 md:grid-cols-1 '>
+                            <p className='text-center md:text-2xl text-3xl text-blue-500 font-bold pb-2'>Technologies</p>
+                            <div className='grid grid-cols-2 md:grid-cols-1 '>
                                 {
                                     toolsAndTechnology.map(item => {
                                         return (
@@ -60,7 +60,7 @@ const ProjectDetails = () => {
                         </div>
                     </div>
                     <button onClick={goBack}
-                        className="underline text-slate-200 text-2xl font-semibold"
+                        className="underline md:ml-0 ml-2 text-slate-200 text-2xl font-semibold"
                     >Go Back</button>
                 </div>
             </div>

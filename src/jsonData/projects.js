@@ -1,6 +1,7 @@
 import heroAirvice from './hero-airvice.jpg';
 import heroFanstagram from './fanstagram.jpg';
 import heroBetterBuys from './better-buys.jpg';
+import heroFaveTravel from './fave-travel.jpg';
 
 const projectsData = [
     {
@@ -35,6 +36,28 @@ const projectsData = [
         live: 'https://better-buys-cbd4f.web.app/',
         client: 'https://github.com/nurulhodanahid1/better-buys',
         server: 'https://github.com/nurulhodanahid1/better-buys-server'
+    },
+    {
+        id: 4,
+        name: 'Fave Travel (Full Stack)',
+        img: heroFaveTravel,
+        description: 'Fave Travel is a MERN Stack project. In this website I use Firebase Authentication, User can booking his favourite travelling place, User can see all his booking list',
+        mainTechnology: "React JS, Node JS, Express, MongoDB, Firebase",
+        toolsAndTechnology: ['React JS', 'Node JS', 'Express Js', 'MongoDB', 'Firebase Authentication', 'React Router', 'React Hook From'],
+        live: 'https://fave-travel.netlify.app/',
+        client: 'https://github.com/nurulhodanahid1/fav-travel-client',
+        server: 'https://github.com/nurulhodanahid1/fav-travel-server'
+    },
+    {
+        id: 5,
+        name: 'Todo application with RTK Query (Full Stack)',
+        img: heroFaveTravel,
+        description: 'In this web app user can add his daily todo items, user can manage his todos, user can create, delete, filter by status, set priority on his todos',
+        mainTechnology: "React JS, Redux, RTK Query, JSON Server, Tailwind CSS ",
+        toolsAndTechnology: ['React JS', 'Redux', 'Redux Toolkit', 'RTK Query', 'Tailwind CSS', 'JSON Server'],
+        live: 'https://roaring-conkies-5f5024.netlify.app',
+        client: 'https://github.com/nurulhodanahid1/todo-application-with-rtk-query',
+        server: ''
     }
 ];
 
