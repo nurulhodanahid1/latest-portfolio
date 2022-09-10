@@ -2,6 +2,7 @@ import heroAirvice from './hero-airvice.jpg';
 import heroFanstagram from './fanstagram.jpg';
 import heroBetterBuys from './better-buys.jpg';
 import heroFaveTravel from './fave-travel.jpg';
+import heroTodoRTK from './todo-rtk.jpg';
 
 const projectsData = [
     {
@@ -51,7 +52,7 @@ const projectsData = [
     {
         id: 5,
         name: 'Todo application with RTK Query (Full Stack)',
-        img: heroFaveTravel,
+        img: heroTodoRTK,
         description: 'In this web app user can add his daily todo items, user can manage his todos, user can create, delete, filter by status, set priority on his todos',
         mainTechnology: "React JS, Redux, RTK Query, JSON Server, Tailwind CSS ",
         toolsAndTechnology: ['React JS', 'Redux', 'Redux Toolkit', 'RTK Query', 'Tailwind CSS', 'JSON Server'],
